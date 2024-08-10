@@ -1,0 +1,89 @@
+.header {
+  color: white;
+  padding: 2rem;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-text {
+  flex: 1;
+  padding-right: 2rem;
+}
+
+.header-title {
+  font-size: 6.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.header-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-button {
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button {
+  background-color: #3b82f6;
+}
+
+.contact-button:hover {
+  background-color: #2563eb;
+}
+
+.cv-button {
+  background-color: #10b981;
+}
+
+.cv-button:hover {
+  background-color: #059669;
+}
+
+.header-image {
+  flex-shrink: 0;
+}
+
+.profile-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header-text {
+    padding-right: 0;
+    margin-bottom: 2rem;
+  }
+
+  .header-buttons {
+    justify-content: center;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+}

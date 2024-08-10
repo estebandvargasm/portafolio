@@ -1,4 +1,3 @@
-import './App.css'
 import Navbar from './navbar/navbar'
 import Header from './header/header';
 

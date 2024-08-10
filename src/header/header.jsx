@@ -1,11 +1,28 @@
 import React from "react";
-import './header.css';
+import "./Header.css";
 
-function Header() {
+const Header = () => {
   return (
     <header className="header">
-      <h1 className="header-title">Hello, I'm Esteban</h1>
-      <p className="header-subtitle">I'm Web Developer</p>
+      <div className="header-content">
+        <div className="header-text">
+          <h1 className="header-title">Wellcome</h1>
+          <p className="header-subtitle">
+            I'm Esteban, a frontend developer passionate about designing and creating professional websites. Let's talk and make your ideas a reality.
+          </p>
+          <div className="header-buttons">
+            <button className="header-button contact-button">
+              Contact Me
+            </button>
+            <button className="header-button cv-button">
+              Download CV
+            </button>
+          </div>
+        </div>
+        <div className="header-image">
+          <img src="/logo.png" alt="Logo" className="profile-image" />
+        </div>
+      </div>
     </header>
   );
 };
