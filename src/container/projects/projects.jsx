@@ -8,6 +8,8 @@ const Projects = () => {
                 <h2 className="projects-title">Projects</h2>
                 <p className="projects-text">
                     I'm Esteban, a frontend developer passionate about designing and creating professional websites. Let's talk and make your ideas a reality.
+                    I'm Esteban, a frontend developer passionate about designing and creating professional websites. Let's talk and make your ideas a reality.
+                    I'm Esteban, a frontend developer passionate about designing and creating professional websites. Let's talk and make your ideas a reality.
                 </p>
                 <div className="projects-buttons">
                     <button className="projects-button contact-button">

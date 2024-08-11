@@ -1,13 +1,22 @@
 .app-container {
   display: flex;
-  flex-direction: row;
-  margin-top: 80px;
+  flex-direction: column;
+  height: 100vh;
 }
 
-Header {
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.header {
   flex: 0.4;
+  position: sticky;
+  overflow-y: auto;
 }
 
-Container {
+.container {
   flex: 0.6;
+  overflow-y: auto;
 }
