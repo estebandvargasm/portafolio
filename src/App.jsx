@@ -1,14 +1,18 @@
-import './App.css'
-import Navbar from './navbar/navbar'
+import Navbar from './navbar/navbar';
 import Header from './header/header';
+import Container from './container/container';
+import './app.css';
 
 function App() {
   return (
-    <>
+    <div className="app-container">
       <Navbar />
-      <Header />
-    </>
-  )
-};
+      <div className="content-wrapper">
+        <Header className="header" />
+        <Container className="container" />
+      </div>
+    </div>
+  );
+}
 
 export default App;

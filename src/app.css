@@ -1,0 +1,22 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.header {
+  flex: 0.4;
+  position: sticky;
+  overflow-y: auto;
+}
+
+.container {
+  flex: 0.6;
+  overflow-y: auto;
+}
