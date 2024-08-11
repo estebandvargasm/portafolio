@@ -1,20 +1,14 @@
-import React from 'react';
 import Navbar from './navbar/navbar';
 import Header from './header/header';
 import Container from './container/container';
+import './app.css'; // Importa tu archivo CSS si tienes uno
 
-const App = () => {
+function App() {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="app-container">
       <Navbar />
-      <div className="flex flex-1 overflow-hidden">
-        <div className="w-3/10">
-          <Header />
-        </div>
-        <div className="w-7/10">
-          <Container />
-        </div>
-      </div>
+      <Header />
+      <Container />
     </div>
   );
 };

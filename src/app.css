@@ -1,0 +1,13 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+
+Header {
+  flex: 0.4;
+}
+
+Container {
+  flex: 0.6;
+}
