@@ -41,30 +41,19 @@
 }
 
 .contact-button {
-  background-color: #3b82f6;
+  background-color: #e40000;
 }
 
 .contact-button:hover {
-  background-color: #2563eb;
+  background-color: #b30101;
 }
 
 .cv-button {
-  background-color: #10b981;
+  background-color: #e40000;
 }
 
 .cv-button:hover {
-  background-color: #059669;
-}
-
-.header-image {
-  flex-shrink: 0;
-}
-
-.profile-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
+  background-color: #b30101;
 }
 
 @media (max-width: 768px) {
@@ -80,10 +69,5 @@
 
   .header-buttons {
     justify-content: center;
-  }
-
-  .profile-image {
-    width: 200px;
-    height: 200px;
   }
 }

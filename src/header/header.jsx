@@ -19,9 +19,6 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <div className="header-image">
-          <img src="/logo.png" alt="Logo" className="profile-image" />
-        </div>
       </div>
     </header>
   );
