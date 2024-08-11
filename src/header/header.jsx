@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="header-text">
-          <h1 className="header-title">Wellcome</h1>
+          <h1 className="header-title">Welcome</h1>
           <p className="header-subtitle">
             I'm Esteban, a frontend developer passionate about designing and creating professional websites. Let's talk and make your ideas a reality.
           </p>
