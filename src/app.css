@@ -8,15 +8,17 @@
   display: flex;
   flex: 1;
   overflow: hidden;
+  padding-top: 80px;
 }
 
 .header {
-  flex: 0.4;
+  flex: 0.4; /* 40% del ancho */
   position: sticky;
   overflow-y: auto;
 }
 
 .container {
-  flex: 0.6;
+  flex: 0.6; /* 60% del ancho */
   overflow-y: auto;
+  height: calc(100vh - 80px); /* Altura total menos la altura de la navbar */
 }

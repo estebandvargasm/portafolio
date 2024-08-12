@@ -1,7 +1,7 @@
 .header {
   color: white;
   padding: 2rem;
-  margin-top: 40px;
+  display: flex;
 }
 
 .header-content {
@@ -13,6 +13,7 @@
 }
 
 .header-title {
+  margin-top: 0;
   font-size: 5.25rem;
   font-weight: bold;
   margin-bottom: 1rem;
@@ -26,6 +27,7 @@
 .header-buttons {
   display: flex;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .header-button {
