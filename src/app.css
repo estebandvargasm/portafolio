@@ -8,15 +8,21 @@
   display: flex;
   flex: 1;
   overflow: hidden;
+  padding-top: 80px;
 }
 
 .header {
-  flex: 0.4;
+  min-width: 430px;
+  max-width: 430px;
   position: sticky;
   overflow-y: auto;
+  padding-left: 160px;
 }
 
 .container {
-  flex: 0.6;
+  flex: auto; /* 60% del ancho */
   overflow-y: auto;
+  height: calc(100vh - 80px); /* Altura total menos la altura de la navbar */
+  padding-right: 160px;
+  padding-left: 160px;
 }

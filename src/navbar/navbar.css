@@ -1,14 +1,15 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #333;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
+  z-index: 1000;
 }
 
 .navbar-container {
@@ -54,7 +55,8 @@
   transition: all 0.3s ease;
 }
 
-.nav-links:hover {
-  color: #ff0000;
-  border-bottom: 4px solid #ff0000;
+.nav-links:hover,
+.nav-links.active {
+  color: #fff;
+  border-bottom: 4px solid #ac0000;
 }
