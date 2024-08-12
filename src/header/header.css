@@ -12,11 +12,21 @@
   text-align: justify;
 }
 
+@font-face {
+  font-family: "GodOfWar";
+  src: local("GodOfWar"), url("../fonts/GODOFWAR.TTF") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .header-title {
   margin-top: 0;
-  font-size: 5.25rem;
+  font-size: 5.40rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  font-family: "GodOfWar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .header-subtitle {
@@ -40,13 +50,13 @@
 
 .cv-button,
 .contact-button {
-  background-color: #e40000;
+  background-color: #9C0001;
 }
 
 .contact-button:hover,
 .cv-button:hover {
-  background-color: #b30101;
-  border-color: #b30101;
+  background-color: #750000;
+  border-color: #750000;
 }
 
 @media (max-width: 768px) {
