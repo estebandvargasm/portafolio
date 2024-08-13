@@ -24,15 +24,15 @@ const Projects = () => {
   const projects = [
     {
       title: "MIND SAS BIC",
-      description: "A website using React.js.",
+      description: "This is the website of the company Mind SAS BIC, built with react.",
       image: "/MIND-SAS-BIC.png",
       projectLink: "https://www.metalmindsa.com/",
       codeLink: "https://github.com/LuisDavidFajardoH/Mind",
     },
     {
       title: "Portfolio Website",
-      description: "A personal portfolio website showcasing my projects and skills.",
-      image: "/api/placeholder/400/300",
+      description: "A personal portfolio website showcasing my projects and skills, built with React.",
+      image: "/portfolio.png",
       projectLink: "#",
       codeLink: "#",
     },

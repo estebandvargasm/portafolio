@@ -2,6 +2,7 @@
   background-color: #1a202c;
   color: white;
   padding: 1rem;
+  margin-bottom: 4rem;
 }
 
 .contact-content {
@@ -14,6 +15,7 @@
   font-weight: bold;
   margin-bottom: 2rem;
   font-family: "GodOfWar", sans-serif;
+  text-align: left;
 }
 
 .contact-form {

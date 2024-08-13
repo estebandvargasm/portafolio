@@ -12,23 +12,25 @@
 .projects-title {
   font-size: 3.75rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
   font-family: "GodOfWar", sans-serif;
   text-align: center;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(432px, 1fr));
   gap: 2rem;
   margin-bottom: 2rem;
+  justify-items: center;
 }
 
 .project-card {
-  background-color: #2d3748;
+  background-color: #1d2433;
   border-radius: 0.5rem;
-  overflow: hidden;
   transition: transform 0.3s ease;
+  height: 25rem;
+  width: 27rem;
 }
 
 .project-card:hover {
@@ -36,13 +38,17 @@
 }
 
 .project-image {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
+  padding: 1rem;
+  padding-bottom: 0;
+  width: 25rem;
+  height: auto;
+  border-radius: 0.5rem;
 }
 
 .project-info {
-  padding: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .project-title {
