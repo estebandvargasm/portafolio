@@ -44,7 +44,7 @@
 .about-image {
   max-width: 100%;
   width: 250px;
-  height: 250px;
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 0 20px rgba(156, 0, 1, 0.5);
 }
