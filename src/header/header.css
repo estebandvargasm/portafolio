@@ -36,25 +36,22 @@
 
 .header-buttons {
   display: flex;
+  justify-content: left;
   gap: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .header-button {
   font-weight: bold;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 0.25rem;
   cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.cv-button,
-.contact-button {
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: none;
   background-color: #9C0001;
 }
 
-.contact-button:hover,
-.cv-button:hover {
+.header-button:hover {
   background-color: #750000;
   border-color: #750000;
 }

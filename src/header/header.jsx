@@ -11,10 +11,10 @@ const Header = () => {
             My name is Esteban Vargas, I'm a front-end developer passionate about designing and creating professional websites. Let's talk and make your ideas a reality.
           </p>
           <div className="header-buttons">
-            <button className="header-button contact-button">
+            <button className="header-button">
               Contact Me
             </button>
-            <button className="header-button cv-button">
+            <button className="header-button">
               Download CV
             </button>
           </div>

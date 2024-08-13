@@ -20,7 +20,7 @@
 }
 
 .container {
-  flex: auto; /* 60% del ancho */
+  flex: auto;
   overflow-y: auto;
   height: calc(100vh - 80px); /* Altura total menos la altura de la navbar */
   padding-right: 160px;
